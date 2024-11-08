@@ -1,0 +1,35 @@
+# override
+defaults:
+  - train_base
+
+# training config
+training_args:
+  bf16: false
+  do_eval: true
+  eval_strategy: "epoch"
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: true
+  # gradient_checkpointing_kwargs:
+  #   use_reentrant: false
+  learning_rate: 2e-4
+  logging_steps: 5
+  logging_strategy: "steps"
+  lr_scheduler_type: "cosine"
+  dataloader_num_workers: 1
+  num_train_epochs: 15
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  remove_unused_columns: true
+  logging_first_step: true
+  optim: "adamw_torch"
+  optim_args: "weight_decay=0.1"
+  warmup_steps: 150
+  report_to: "wandb"
+  save_strategy: "epoch"
+  ddp_find_unused_parameters: false
+  output_dir: "output"
+
+# debug
+debug: True
+dataset_type: moc
+model_name: "llava-hf/llava-v1.6-mistral-7b-hf"

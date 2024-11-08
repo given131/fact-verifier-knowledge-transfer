@@ -1,0 +1,8 @@
+
+defaults:
+  - train_base
+
+# data
+dataset_type: moc_eg_3_5_random
+val_file: moc_eg_3_5_random/val.tsv
+test_file: moc_eg_3_5_random/test.tsv

@@ -1,0 +1,5 @@
+defaults:
+  - train_base
+
+# data
+dataset_type: vit_ngt_fak

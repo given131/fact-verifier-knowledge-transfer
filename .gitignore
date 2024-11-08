@@ -1,0 +1,5 @@
+wandb/
+outputs/
+*.out
+*.log
+.env

@@ -1,0 +1,8 @@
+
+defaults:
+  - train_base
+
+# data
+dataset_type: moc_eg_gpt_guided
+val_file: moc_eg_gpt_guided/val.tsv
+test_file: moc_eg_gpt_guided/test.tsv

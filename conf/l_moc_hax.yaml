@@ -1,0 +1,11 @@
+defaults:
+  - train_base
+
+# data
+dataset_type: moc_hax
+model_name: llava-hf/llava-v1.6-mistral-7b-hf
+batch_size: 1
+target_batch: 32
+epochs: 5
+project_name: llava
+lr: 2e-5

@@ -1,0 +1,8 @@
+
+defaults:
+  - train_base
+
+# data
+dataset_type: moc_eg_3_5_wrong_switch
+val_file: moc_eg_3_5_wrong_switch/val.tsv
+test_file: moc_eg_3_5_wrong_switch/test.tsv

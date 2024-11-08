@@ -1,0 +1,29 @@
+# override
+defaults:
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+# output
+run_dir:
+cur_run_id:
+
+# model
+model_name: openai/clip-vit-base-patch32
+
+# misc
+device:
+seed: 42
+
+# debug
+debug: False
+class_num: 3
+
+project_name: llava-eval
+target_dir:
+target_epoch:
+num_workers: 4

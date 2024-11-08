@@ -1,0 +1,6 @@
+defaults:
+  - train_base
+
+# data
+dataset_type: tox
+class_num: 2

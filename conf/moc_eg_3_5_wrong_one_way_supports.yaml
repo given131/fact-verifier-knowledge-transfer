@@ -1,0 +1,8 @@
+
+defaults:
+  - train_base
+
+# data
+dataset_type: moc_eg_3_5_wrong_one_way_supports
+val_file: moc_eg_3_5_wrong_one_way_supports/val.tsv
+test_file: moc_eg_3_5_wrong_one_way_supports/test.tsv

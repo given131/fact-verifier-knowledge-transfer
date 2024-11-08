@@ -1,0 +1,6 @@
+defaults:
+  - train_base
+
+# data
+dataset_type: hax
+class_num: 2
