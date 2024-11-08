@@ -2,6 +2,9 @@
 
 This repo includes official code for [How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models](https://aclanthology.org/2024.findings-emnlp.764/)
 
+## Datasets
+You can download the datasets from [this link](https://drive.google.com/file/d/1mXGB4M-5TsV8bAeHPdK5hWHQ6zz0IV2l/view?usp=drive_link).
+
 ## Setting up the environment
 ```
 conda install pytorch torchvision torchaudio -c pytorch -c nvidia
@@ -37,3 +40,5 @@ torchrun --standalone
 ```
 - `target_run_id` is the run id of the trained model.
 - `model_name` is the model name. It should be the same as the one used for training.
+
+#
