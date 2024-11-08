@@ -1,6 +1,6 @@
 # Fact Verifier with Knowledge Transfer Approach
 
-This repo includes official code for "_How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models"_
+This repo includes official code for [_How to Train Your Fact Verifier: Knowledge Transfer with Multimodal Open Models"](https://aclanthology.org/2024.findings-emnlp.764/)
 
 ## Setting up the environment
 ```
